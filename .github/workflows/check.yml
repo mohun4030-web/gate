@@ -67,5 +67,5 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
 
-      - name: Show site URL
-        run: 'echo "site: https://mohun4030-web.github.io/gate/ (deploy outcome: ${{ steps.deployment.outcome }})"'
+     - name: Show site URL
+  run: 'echo "site: https://mohun4030-web.github.io/gate/ ..."'
